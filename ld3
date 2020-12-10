@@ -38,6 +38,6 @@ grid on;
 %-------------------------------------------------------------------------------------
 function F = gauss(x,r,c)     
                               %dvi spindulio tipo funkcijos 
-                              %(naudokite Gauso funkcijas: F = exp(-(x-c)^2/(2*r^2)));
+                              %(naudokite Gauso funkcijas: F = exp(-(x-c)^2/(2*r^2));
 F = exp(-(x-c).^2/(2*r.^2));
 end
