@@ -1,6 +1,6 @@
 x = [0.1:1/22:1]; %vienas įėjimas (įėjime paduodamas 20 skaičių vektorius X, 
                   % su reikšmėmis interrvale nuo 0 iki 1, pvz., x = 0.1:1/22:1; )
-                  
+           
 out = sin(2*pi*x)/2; %vienas išėjimas 
 % (pvz., išėjime tikimasi tokio norimo atsako, kurį galima būtų apskaičiuoti pagal formulę: 
 % y = (1 + 0.6*sin(2*pi*x/0.7)) + 0.3*sin(2*pi*x))/2; 
